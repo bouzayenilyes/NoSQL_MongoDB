@@ -20,9 +20,9 @@ app.use(cors());
 // Define Routes
 app.use('/api/todos', require('./routes/todos'));
 
-// Basic route for testing
+
 app.get('/', (req, res) => {
-  res.send('API is running...');
+  res.send('Aaslema raw ee backend yekhdem...');
 });
 
 const PORT = process.env.PORT || 5000;
